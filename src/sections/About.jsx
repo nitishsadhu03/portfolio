@@ -9,10 +9,8 @@ const About = () => {
         <h1 className="text-3xl lg:text-5xl font-bold text-secondary">About Me</h1>
       </div>
       <div className="flex flex-col gap-y-10 lg:flex-row justify-evenly items-center">
-        <div className="w-[45%] flex justify-center relative">
-        <div className="hidden lg:flex absolute w-44 h-44 -top-16 left-28 rounded-full bg-primary -z-10 filter blur-xl opacity-70"></div>
-          <img src="/assets/pfp.jpg" className="h-56 lg:h-96 rounded-2xl shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" />
-          <div className="hidden lg:flex absolute w-44 h-44 -bottom-16 right-28 rounded-full bg-primary -z-10 filter blur-xl opacity-70"></div>
+        <div className="w-[45%] flex justify-center">
+          <img src="/assets/pfp.jpg" className="h-56 lg:h-96 rounded-2xl shadow-[0_3px_10px_rgb(0,0,0,0.2)] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" />
         </div>
         <div className="flex flex-col items-center lg:items-start lg:w-[40%] gap-2">
           <h1 className="text-xl lg:text-3xl font-semibold">I&apos;m Nitish Sadhu</h1>

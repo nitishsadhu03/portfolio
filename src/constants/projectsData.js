@@ -1,28 +1,56 @@
 export const data = [
-    {
-        id: 1,
-        label:"Maven",
-        imgSrc:"/assets/projects/maven.jpg",
-        desc: "Maven, powered by OpenAI and Replicate AI, offers AI tools for diverse content creation, including conversation, images, music, videos, and code.",
-        view: "https://maven-ai-tool.vercel.app/",
-        code: "https://github.com/nitishsadhu03/Maven-ai-tool"
-    },
-    {
-        id: 2,
-        label:"PromptNexus",
-        imgSrc:"/assets/projects/promptnexus.jpg",
-        desc: "PromptNexus: a Next.js-based website enabling users to share AI prompts for applications like ChatGPT, integrating Next-Auth for authentication.",
-        view: "https://promptnexus-eight.vercel.app/",
-        code: "https://github.com/nitishsadhu03/promptnexus"
-    },
-    {
-        id: 3,
-        label:"Threads Clone",
-        imgSrc:"/assets/projects/threads.jpg",
-        desc: "Threads Clone: Simplified project inspired by Threads app, includes thread posting, commenting, user search, and notification functionalities.",
-        view: "https://threads-clone-ten-rho.vercel.app/",
-        code: "https://github.com/nitishsadhu03/threads_clone"
-    },
-    
-    
-]
+  {
+    id: 1,
+    label: "CareVibe",
+    imgSrc: "/assets/projects/carevibe.png",
+    desc: "CareVibe is a healthcare patient management application that allows patients to register, book, and manage their appointments with doctors.",
+    view: "https://carevibe.vercel.app/",
+    code: "https://github.com/nitishsadhu03/carevibe",
+    techStack: ["Next.js", "Tailwind CSS", "Appwrite", "ShadCN", "Twilio"],
+  },
+  {
+    id: 2,
+    label: "Snippify",
+    imgSrc: "/assets/projects/snippify.png",
+    desc: "Snippify is a code snippet manager that allows users to manage and share code snippets with a range of features, including user registration, profile customization, and more.",
+    view: "https://snippify-code.vercel.app/",
+    code: "https://github.com/nitishsadhu03/snippify-frontend",
+    techStack: ["React", "Tailwind CSS", "ShadCN"],
+  },
+  {
+    id: 3,
+    label: "News Research Tool",
+    imgSrc: "/assets/projects/news-tool.png",
+    desc: "News Research Tool uses LangChain and the Gemini API to create a tool that processes news articles from user-provided URLs and answers queries based on their content.",
+    view: "https://github.com/nitishsadhu03/news-research-tool",
+    code: "https://github.com/nitishsadhu03/news-research-tool",
+    techStack: ["LangChain", "Streamlit", "Gemini API"],
+  },
+  {
+    id: 4,
+    label: "Maven",
+    imgSrc: "/assets/projects/maven.jpg",
+    desc: "Maven, powered by OpenAI and Replicate AI, offers AI tools for diverse content creation, including conversation, images, music, videos, and code.",
+    view: "https://maven-ai-tool.vercel.app/",
+    code: "https://github.com/nitishsadhu03/Maven-ai-tool",
+    techStack: ["Next.js", "Tailwind CSS", "OpenAI API", "Replicate AI"],
+  },
+  {
+    id: 5,
+    label: "PromptNexus",
+    imgSrc: "/assets/projects/promptnexus.jpg",
+    desc: "PromptNexus: a Next.js-based website enabling users to share AI prompts for applications like ChatGPT, integrating Next-Auth for authentication.",
+    view: "https://promptnexus-eight.vercel.app/",
+    code: "https://github.com/nitishsadhu03/promptnexus",
+    techStack: ["Next.js", "Next-Auth", "Tailwind CSS"],
+  },
+  {
+    id: 6,
+    label: "Threads Clone",
+    imgSrc: "/assets/projects/threads.jpg",
+    desc: "Threads Clone: Simplified project inspired by Threads app, includes thread posting, commenting, user search, and notification functionalities.",
+    view: "https://threads-clone-ten-rho.vercel.app/",
+    code: "https://github.com/nitishsadhu03/threads_clone",
+    techStack: ["Next.js", "Tailwind CSS", "Clerk"],
+  },
+];

@@ -7,6 +7,7 @@ import Projects from "../sections/Projects"
 import Skills from "../sections/Skills"
 import ScrollToAnchor from "../components/ScrollToAnchor";
 import MobileNavbar from "../components/MobileNavbar"
+import Experince from "../sections/Experince"
 
 const LandingPage = () => {
   return (
@@ -14,9 +15,10 @@ const LandingPage = () => {
         <ScrollToAnchor/>
         <Home/>
         <About/>
+        <Experince/>
+        <Projects/>
         <Skills/>
         <Education/>
-        <Projects/>
         <Contact/>
         <Footer/>
         <MobileNavbar/>

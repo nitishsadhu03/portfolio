@@ -17,6 +17,16 @@ const Navbar = () => {
             About
           </p>
         </Link>
+        <Link to="#experince">
+          <p className="text-xl font-semibold hover:cursor-pointer hover:text-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+            Experince
+          </p>
+        </Link>
+        <Link to="#projects">
+          <p className="text-xl font-semibold hover:cursor-pointer hover:text-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+            Projects
+          </p>
+        </Link>
         <Link to="#skills">
           <p className="text-xl font-semibold hover:cursor-pointer hover:text-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
             Skills
@@ -27,11 +37,7 @@ const Navbar = () => {
             Education
           </p>
         </Link>
-        <Link to="#projects">
-          <p className="text-xl font-semibold hover:cursor-pointer hover:text-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-            Projects
-          </p>
-        </Link>
+        
         <Link to="#contact">
           <p className="text-xl font-semibold hover:cursor-pointer hover:text-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
             Contact
